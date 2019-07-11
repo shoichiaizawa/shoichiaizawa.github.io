@@ -1,10 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Shoichi AIZAWA's Website, powered by GitHub Pages.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,500,700" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: calc(10px + 0.33vw);
+      -webkit-font-smoothing: antialiased;
+      padding: 5vh 10vw;
+      color: #121314;
+    }
+    h1 {
+      font-size: 4.5em;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+    p {
+      font-size: 1.6em;
+      font-weight: 300;
+      line-height: 1.4;
+      max-width: 26em;
+    }
+    a {
+      text-decoration: none;
+      color: #121314;
+      position: relative;
+    }
+    a::after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 60%;
+      left: -0.1em;
+      right: -0.1em;
+      bottom: 0;
+      transition: top 200ms cubic-bezier(0, .8, .13, 1);
+      background-color: rgba(79,192,141,0.5);
+    }
+    a:hover::after {
+      top: 0%;
+    }
+  </style>
 </head>
 <body>
-  <h1>This website is currently under construction.</h1>
+  <h1>Hello, folks!</h1>
+  <p>NOTE: This website is currently under construction.</p>
+  <p style="font-weight:500; font-size:2.2em">
+    My name is Shoichi AIZAWA.
+  </p>
+  <p>
+    I am a Japanese systems engineer based in Tokyo.
+  </p>
+  <p>
+    Some of you may have noticed that this website looks exactly like <a href="https://evanyou.me/" target="_blank">this</a> – yes, I copy-pasted the HTML code of it. This is a shameless ripoff from Evan You, the creator of the open source JavaScript framework <a href="https://vuejs.org" target="_blank">Vue.js</a>. Not too long from now, hopefully, I wish to publish my own unique website for myself.
+  </p>
+  <p>
+    In my own time, I enjoy swimming, travelling, eating out and smoking shisha.
+  </p>
 </body>
 </html>
