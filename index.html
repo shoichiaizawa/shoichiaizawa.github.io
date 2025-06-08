@@ -5,11 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Shoichi AIZAWA</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Rubik:300,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inter:300,700" rel="stylesheet" />
   <link rel="icon" type="image/png" href="https://emojis.slackmojis.com/emojis/images/1643514075/312/doge.png">
   <style>
     body {
-      font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
       font-size: calc(10px + 0.33vw);
       -webkit-font-smoothing: antialiased;
       padding: 5vh 10vw;
@@ -17,41 +19,45 @@
     }
     h1 {
       font-size: 4.5em;
-      font-weight: 500;
+      font-weight: 700;
       margin-bottom: 0;
     }
+    h2 {
+      font-size: 2.2em;
+      font-weight: 700;
+      letter-spacing: -1.5px;
+    }
     p {
-      font-size: 1.6em;
+      font-size: 1.3em;
       font-weight: 300;
       line-height: 1.4;
-      max-width: 26em;
+      max-width: 28em;
     }
     a {
       text-decoration: none;
+      white-space: nowrap;
       color: #121314;
       position: relative;
     }
-    a::after {
-      content: "";
+    a:after {
+      content: '';
       position: absolute;
       z-index: -1;
-      top: 60%;
+      top: 66%;
       left: -0.1em;
       right: -0.1em;
       bottom: 0;
-      transition: top 200ms cubic-bezier(0, .8, .13, 1);
-      background-color: rgba(79,192,141,0.5);
+      transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+      background-color: rgba(79, 192, 141, 0.5);
     }
-    a:hover::after {
+    a:hover:after {
       top: 0%;
     }
   </style>
 </head>
 <body>
   <h1>Hello, folks!</h1>
-  <p style="font-weight:500; font-size:2.2em">
-    My name is Shoichi AIZAWA.
-  </p>
+  <h2>My name is Shoichi AIZAWA.</h2>
   <p>
     I am a Japanese systems engineer based in Tokyo.
   </p>
